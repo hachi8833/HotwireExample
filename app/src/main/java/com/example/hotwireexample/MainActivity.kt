@@ -3,6 +3,7 @@ package com.example.hotwireexample
 import android.os.Bundle
 import dev.hotwire.navigation.activities.HotwireActivity
 import dev.hotwire.navigation.navigator.NavigatorConfiguration
+import com.example.hotwireexample.R
 
 class MainActivity : HotwireActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
