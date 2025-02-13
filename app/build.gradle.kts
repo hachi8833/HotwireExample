@@ -48,6 +48,8 @@ dependencies {
 }
 
 dependencies {
+  implementation(libs.hotwire.core)
+  implementation(libs.hotwire.navigation.fragments)
   implementation("dev.hotwire:core:1.1.1")
   implementation("dev.hotwire:navigation-fragments:1.1.1")
 }
