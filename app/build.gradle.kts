@@ -46,3 +46,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
+dependencies {
+  implementation("dev.hotwire:core:1.1.1")
+  implementation("dev.hotwire:navigation-fragments:1.1.1")
+}
